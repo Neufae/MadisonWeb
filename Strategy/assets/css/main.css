@@ -1087,7 +1087,9 @@ section,
 }
 
 .about .about-content p {
-  margin-bottom: 1rem;
+  font-size: 1.15rem;
+  margin-bottom: 1.25rem;
+  color: color-mix(in srgb, var(--heading-color), transparent 30%);
 }
 
 .about .about-content .feature-item {
