@@ -1133,6 +1133,39 @@ section,
   color: var(--contrast-color);
 }
 
+.about .about-content .cta-button .btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 40%);
+  color: var(--default-color);
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.about .about-content .cta-button .btn span {
+  margin-right: 0.5rem;
+}
+
+.about .about-content .cta-button .btn i {
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+.about .about-content .cta-button .btn:hover {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  color: var(--contrast-color);
+}
+
+.about .about-content .cta-button .btn:hover i {
+  transform: translateX(5px);
+}
+
 .about .about-content .btn-primary:hover {
   background-color: color-mix(in srgb, var(--accent-color), black 10%);
   border-color: color-mix(in srgb, var(--accent-color), black 10%);
