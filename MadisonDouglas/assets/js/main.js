@@ -1,9 +1,5 @@
 /**
-* Template Name: Strategy
-* Template URL: https://bootstrapmade.com/strategy-bootstrap-agency-template/
-* Updated: Jun 06 2025 with Bootstrap v5.3.6
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+* Author: Madison Douglas
 */
 
 (function() {
@@ -21,6 +17,28 @@
 
   document.addEventListener('scroll', toggleScrolled);
   window.addEventListener('load', toggleScrolled);
+
+  /**
+   * Testing New NavBar Scroll
+   */
+
+  let lastScrollTop = 0;
+const header = document.querySelector('#header');
+
+window.addEventListener('scroll', function () {
+  const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+  if (scrollTop > lastScrollTop && scrollTop > 100) {
+    // scrolling down → hide navbar
+    header.style.top = '-80px'; // adjust to your navbar height
+  } else {
+    // scrolling up → show navbar
+    header.style.top = '0';
+  }
+
+  lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+});
+
 
   /**
    * Mobile nav toggle
