@@ -905,47 +905,7 @@ section,
     margin-right: auto;
   }
 
-.hero .cta-button {
-  margin-top: 1.5rem;
-}
 
-.hero .cta-button .btn {
-  display: inline-flex;
-  align-items: center;
-  background-color: transparent;
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 40%);
-  color: var(--default-color);
-  padding: 0.75rem 1.5rem;
-  border-radius: 50px;
-  font-size: 0.9rem;
-  font-weight: 600;
-  letter-spacing: 1px;
-  transition: all 0.3s ease;
-}
-
-.hero .cta-button .btn span {
-  margin-right: 0.5rem;
-}
-
-.hero .cta-button .btn i {
-  font-size: 1.2rem;
-  transition: transform 0.3s ease;
-}
-
-.hero .cta-button .btn:hover {
-  background-color: var(--accent-color);
-  border-color: var(--accent-color);
-  color: var(--contrast-color);
-}
-
-.hero .cta-button .btn:hover i {
-  transform: translateX(5px);
-}
-
-.hero.btn-primary:hover {
-  background-color: color-mix(in srgb, var(--accent-color), black 10%);
-  border-color: color-mix(in srgb, var(--accent-color), black 10%);
-}
 
 .hero .visual-content {
   position: relative;
@@ -1179,6 +1139,47 @@ section,
   color: var(--contrast-color);
 }
 
+.about .about-content .cta-button {
+  margin-top: 1.5rem;
+}
+
+.about .about-content .btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 40%);
+  color: var(--default-color);
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.about .cta-button .btn span {
+  margin-right: 0.5rem;
+}
+
+.about .cta-button .btn i {
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+.about .cta-button .btn:hover {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  color: var(--contrast-color);
+}
+
+.about .cta-button .btn:hover i {
+  transform: translateX(5px);
+}
+
+.about .btn-primary:hover {
+  background-color: color-mix(in srgb, var(--accent-color), black 10%);
+  border-color: color-mix(in srgb, var(--accent-color), black 10%);
+}
 
 .about .testimonial-section {
   border-top: 1px solid rgba(0, 0, 0, 0.08);
